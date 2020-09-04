@@ -1,0 +1,10 @@
+news_site:
+    eluniversal:
+        url: https://www.eluniversal.com.mx/
+        queries:
+            homepage_article_links: '.type-article a'
+    elpais:
+        url: https://elpais.com/mexico/
+        queries:
+            homepage_article_links: '.headline a'
+        
