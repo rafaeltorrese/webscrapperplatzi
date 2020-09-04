@@ -1,10 +1,14 @@
 news_site:
     eluniversal:
-        url: https://www.eluniversal.com.mx/
+        url: "https://www.eluniversal.com.mx/"
         queries:
-            homepage_article_links: '.type-article a'
+            homepage_article_links: ".type-article a"
+            article_body: ".type-article p"
+            article_title: ".type-article h2"
     elpais:
-        url: https://elpais.com/mexico/
+        url: "https://elpais.com/mexico/"
         queries:
             homepage_article_links: '.headline a'
+            article_body: ".description "
+            article_title: ".headline"
         
